@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+File:   musicFile.xml                              
+Author: David Lordan, UMass Lowell Computer Science
+david_lordan@student.uml.edu
+Created on September 12, 2014, 12:02 PM
+Modified on Sept 19th at 9:15 PM
+This is an XML file for the album "Physical Graffiti" by Led Zeppelin, 
+which was found on the MusicBrainz website. Source URL: 
+http://musicbrainz.org/ws/2/release/0d06025c-afff-49fd-a1db-8005e686e4d9?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings 
+-->
+<song-library>
+    <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+        <!-- this is a one line comment -->
+        <release id="0d06025c-afff-49fd-a1db-8005e686e4d9">
+            <title>Physical Graffiti</title>
+            <status>Official</status>
+            <quality>normal</quality>
+            <text-representation>
+                <language>eng</language>
+                <script>Latn</script>
+            </text-representation>
+            <artist-credit>
+                <name-credit>
+                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                        <name>Led Zeppelin</name>
+                        <sort-name>Led Zeppelin</sort-name>
+                    </artist>
+                </name-credit>
+            </artist-credit>
+            <date>1975-02-24</date>
+            <country>US</country>
+            <release-event-list count="1">
+                <release-event>
+                    <date>1975-02-24</date>
+                    <area id="489ce91b-6658-3307-9877-795b68554c98">
+                        <name>United States</name>
+                        <sort-name>United States</sort-name>
+                        <iso-3166-1-code-list>
+                            <iso-3166-1-code>US</iso-3166-1-code>
+                        </iso-3166-1-code-list>
+                    </area>
+                </release-event>
+            </release-event-list>
+            <barcode/>
+            <cover-art-archive>
+                <artwork>true</artwork>
+                <count>3</count>
+                <front>true</front>
+                <back>false</back>
+            </cover-art-archive>
+            <label-info-list count="1">
+                <label-info>
+                    <catalog-number>SS 2-200</catalog-number>
+                    <label id="e6b3a9cb-23a5-41ed-9bd9-bc540ef19bf5">
+                        <name>Swan Song</name>
+                        <sort-name>Swan Song</sort-name>
+                    </label>
+                </label-info>
+            </label-info-list>
+            <medium-list count="2">
+                <medium>
+                    <position>1</position>
+                    <format>12" Vinyl</format>
+                    <disc-list count="0"/>
+                    <track-list count="6" offset="0">
+                        <track id="e1f254e1-815f-3797-a227-ac461da20805">
+                            <position>1</position>
+                            <number>A1</number>
+                            <length>253960</length>
+                            <recording id="a113d682-a6b1-41c1-a69e-d6b3afdda185">
+                                <title>Custard Pie</title>
+                                <length>253960</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="bfb7d27f-8528-3483-95c1-935729d816ef">
+                            <position>2</position>
+                            <number>A2</number>
+                            <length>337133</length>
+                            <recording id="9dc19ed4-7505-4dba-be33-b304521ed610">
+                                <title>The Rover</title>
+                                <length>337133</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="a7268993-682f-3772-8dec-ff6598805883">
+                            <position>3</position>
+                            <number>A3</number>
+                            <length>665973</length>
+                            <recording id="4b3b1445-9c36-4b9f-a38a-9ffa40671857">
+                                <title>In My Time of Dying</title>
+                                <length>665973</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="5639d663-6ec5-313f-8c77-6330860143ab">
+                            <position>4</position>
+                            <number>B1</number>
+                            <length>242333</length>
+                            <recording id="3e0cc204-4d17-484f-bec3-7c2a9727db36">
+                                <title>Houses of the Holy</title>
+                                <length>242333</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="ca3c2533-3eb1-3294-9d6e-d0d1b61e2ac6">
+                            <position>5</position>
+                            <number>B2</number>
+                            <length>336533</length>
+                            <recording id="cecb1a98-2b43-4349-9630-0893f68f1951">
+                                <title>Trampled Under Foot</title>
+                                <length>336200</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="15895141-9d7a-3ad5-ba2d-243eb47a2785">
+                            <position>6</position>
+                            <number>B3</number>
+                            <length>508466</length>
+                            <recording id="9c08d02d-5e49-4ef9-b538-dce167adc54a">
+                                <title>Kashmir</title>
+                                <length>509000</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                    </track-list>
+                </medium>
+                <medium>
+                    <position>2</position>
+                    <format>12" Vinyl</format>
+                    <disc-list count="0"/>
+                    <track-list count="9" offset="0">
+                        <track id="a4fbe4c9-d8e8-38da-9afe-c809a4613f7f">
+                            <position>1</position>
+                            <number>C1</number>
+                            <length>526906</length>
+                            <recording id="19595942-7585-4172-8997-c77568161383">
+                                <title>In the Light</title>
+                                <length>526906</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="79d81694-efc7-353d-b34c-3a96e6b521aa">
+                            <position>2</position>
+                            <number>C2</number>
+                            <length>126400</length>
+                            <recording id="677cf0a2-a7cc-4581-931b-2b0b7d095b0c">
+                                <title>Bron-Yr-Aur</title>
+                                <length>126400</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="e3424d11-44b3-34e1-a7c3-e54664b20834">
+                            <position>3</position>
+                            <number>C3</number>
+                            <length>315960</length>
+                            <recording id="be3ccb5a-c43a-4c57-b73f-16791160fe7d">
+                                <title>Down by the Seaside</title>
+                                <length>315960</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="b664b7c0-57de-3f66-a98d-ac3fa8ffe634">
+                            <position>4</position>
+                            <number>C4</number>
+                            <length>393306</length>
+                            <recording id="8633e5de-2a69-478b-af88-502480765d40">
+                                <title>Ten Years Gone</title>
+                                <length>393000</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="ba34a4cf-ebb7-3a7f-8feb-f235c6031f17">
+                            <position>5</position>
+                            <number>D1</number>
+                            <length>217626</length>
+                            <recording id="9fb4b64f-5b54-4bb4-87c7-b347e09e7860">
+                                <title>Night Flight</title>
+                                <length>217626</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="f079cc8d-a2e1-30a8-bf27-b8e43eb29c05">
+                            <position>6</position>
+                            <number>D2</number>
+                            <length>249600</length>
+                            <recording id="849b0027-0cc9-4add-98fa-c5d470bbf8e1">
+                                <title>The Wanton Song</title>
+                                <length>249600</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="6253114e-3fbb-3cd0-a69d-e3c4857dfef1">
+                            <position>7</position>
+                            <number>D3</number>
+                            <length>233173</length>
+                            <recording id="f26e65fb-ae84-48e1-92e0-1c8644b81e8d">
+                                <title>Boogie With Stu</title>
+                                <length>233173</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="932ae375-d5a2-3003-8ad6-cefc344bd492">
+                            <position>8</position>
+                            <number>D4</number>
+                            <length>272960</length>
+                            <recording id="082d4d32-9237-479c-8c56-bee5c1ae4b3a">
+                                <title>Black Country Woman</title>
+                                <length>272960</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                        <track id="18acfc69-275e-3714-ad75-4347d3565bce">
+                            <position>9</position>
+                            <number>D5</number>
+                            <length>282866</length>
+                            <recording id="edcdffc8-6875-4872-bda5-c61e1ea6913f">
+                                <title>Sick Again</title>
+                                <length>282866</length>
+                                <artist-credit>
+                                    <name-credit>
+                                        <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                            <name>Led Zeppelin</name>
+                                            <sort-name>Led Zeppelin</sort-name>
+                                        </artist>
+                                    </name-credit>
+                                </artist-credit>
+                            </recording>
+                        </track>
+                    </track-list>
+                </medium>
+            </medium-list>
+        </release>
+    </metadata>
+</song-library>

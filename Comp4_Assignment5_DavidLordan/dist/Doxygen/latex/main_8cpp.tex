@@ -1,0 +1,429 @@
+\hypertarget{main_8cpp}{\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+}
+{\ttfamily \#include $<$cstdlib$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$algorithm$>$}\\*
+{\ttfamily \#include \char`\"{}Element.\+h\char`\"{}}\\*
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{Parser\+State} \{ \\*
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a6ce26a62afab55d7606ad4e92428b30c}{U\+N\+K\+N\+O\+W\+N}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a94619ef3a259944e2f7a7b02ffdca5bb}{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ae3852cb010d5e422026faf83b3c16f0e}{D\+I\+R\+E\+C\+T\+I\+V\+E}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a348f54ec56d4e57a5cee819df7b00ca9}{E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G}, 
+\\*
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9f20378448c6afaeaf8e3b366a953096}{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a8ab14d43bc98a3992fbd75a90a98bdbb}{E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a3492102454e88f259c4ddc0a3e7019a8}{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9913dbf171247c30b8695e085ecfb217}{S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}, 
+\\*
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ac275b6725664d99466fb91888472687e}{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9533085927f677c97351684c2dc6c826}{I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a84070e40e9f6a2f48e0ab305262726b2}{E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253af4123fd1ebe2fa5c4c5c7d0870cc030f}{O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}, 
+\\*
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a2fd6f336d08340583bd620a7f5694c90}{E\+R\+R\+O\+R}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_aef8b32e84ae75e2c42f7d363451bc006}{Show\+State} (\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{Parser\+State} ps)
+\item 
+\hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{Parser\+State} \hyperlink{main_8cpp_a861d1c103bd2b4da4b7531659a80a53d}{parse} (string current\+Line, \hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{Parser\+State} current\+State, string \&content, string \&tag\+Name)
+\item 
+string \hyperlink{main_8cpp_aa7cb820696f8a66d03330e091482020c}{trim} (string str)
+\item 
+void \hyperlink{main_8cpp_aa861769f045b3d9b9d9e8163d7f589ea}{show\+Stack} (vector$<$ \hyperlink{class_element}{Element} $\ast$ $>$ \hyperlink{main_8cpp_a6000a12598b39a006e805f76443ca2d9}{element\+Vect})
+\item 
+void \hyperlink{main_8cpp_a9f595d1fb9de99abfd4e8b5527c5de59}{procces\+Line} (string current\+Line, \hyperlink{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{Parser\+State} \&current\+State, int line\+Number, string content, string tag\+Name)
+\item 
+int \hyperlink{main_8cpp_a77affb2028c25422b7db58f932d3bf1a}{openfile} (string str\+Path)
+\item 
+void \hyperlink{main_8cpp_a6c0ebd33132cccf680436f8cc2816be4}{clear\+Vector\+Contents} (vector$<$ \hyperlink{class_element}{Element} $\ast$ $>$ \&vect)
+\item 
+void \hyperlink{main_8cpp_af32ca95b1cd369f88dcdbfa80c0503fb}{display\+Tree} (\hyperlink{class_element}{Element} $\ast$\hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element})
+\item 
+void \hyperlink{main_8cpp_a88877ffccfce5e4b71591f07faa00ebb}{delete\+Tree} (\hyperlink{class_element}{Element} $\ast$\hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element})
+\item 
+void \hyperlink{main_8cpp_a7e3cd357bd093abb5fb867b4d194a705}{ask\+Display} ()
+\item 
+bool \hyperlink{main_8cpp_a645d602cc89c1daede29ed29ae099c1e}{ask\+Output\+Format} ()
+\item 
+void \hyperlink{main_8cpp_a451badf8164f3272b6421feeba7d2b7e}{add\+Spaces} (\hyperlink{class_element}{Element} $\ast$\hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element}, ofstream \&os)
+\item 
+void \hyperlink{main_8cpp_ae37b07364aba704a57b48f4e5ba8cfef}{write\+H\+T\+M\+L} (\hyperlink{class_element}{Element} $\ast$\hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element}, ofstream \&os)
+\item 
+void \hyperlink{main_8cpp_ae995a7e11eacb0f2af38b6dbfb694f44}{write\+J\+S\+O\+N} (\hyperlink{class_element}{Element} $\ast$\hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element}, ofstream \&os)
+\item 
+int \hyperlink{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_element}{Element} $\ast$ $>$ \hyperlink{main_8cpp_a6000a12598b39a006e805f76443ca2d9}{element\+Vect}
+\item 
+\hyperlink{class_element}{Element} $\ast$ \hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element} = new \hyperlink{class_element}{Element}
+\item 
+\hyperlink{class_element}{Element} $\ast$ \hyperlink{main_8cpp_ae6188827e9bf492bfd98c44ee0049bf6}{empty\+Root} = \hyperlink{main_8cpp_acc33adf2456394a580161525e4a3b27a}{current\+Element}
+\item 
+bool \hyperlink{main_8cpp_a43e6c54a9b044b60959e96e7335b757c}{show\+Processing} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}{\index{main.\+cpp@{main.\+cpp}!Parser\+State@{Parser\+State}}
+\index{Parser\+State@{Parser\+State}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{Parser\+State}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Parser\+State}}}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253}
+Enumeration for each of the possible states of X\+M\+L document. These will be used extensively in the program to determine the context of a particular line of text. These states are determined by the parse function below. This was made by Prof. Jesse Heines of U\+M\+L for the 91.\+204 Computing I\+V course and is taken from that course's lecture notes. \begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{U\+N\+K\+N\+O\+W\+N@{U\+N\+K\+N\+O\+W\+N}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!U\+N\+K\+N\+O\+W\+N@{U\+N\+K\+N\+O\+W\+N}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a6ce26a62afab55d7606ad4e92428b30c}{U\+N\+K\+N\+O\+W\+N}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a6ce26a62afab55d7606ad4e92428b30c}
+}]\index{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T@{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T@{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a94619ef3a259944e2f7a7b02ffdca5bb}{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+D\+O\+C\+U\+M\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a94619ef3a259944e2f7a7b02ffdca5bb}
+}]\index{D\+I\+R\+E\+C\+T\+I\+V\+E@{D\+I\+R\+E\+C\+T\+I\+V\+E}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!D\+I\+R\+E\+C\+T\+I\+V\+E@{D\+I\+R\+E\+C\+T\+I\+V\+E}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ae3852cb010d5e422026faf83b3c16f0e}{D\+I\+R\+E\+C\+T\+I\+V\+E}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ae3852cb010d5e422026faf83b3c16f0e}
+}]\index{E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G@{E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G@{E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a348f54ec56d4e57a5cee819df7b00ca9}{E\+L\+E\+M\+E\+N\+T\+\_\+\+O\+P\+E\+N\+I\+N\+G\+\_\+\+T\+A\+G}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a348f54ec56d4e57a5cee819df7b00ca9}
+}]\index{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T@{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T@{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9f20378448c6afaeaf8e3b366a953096}{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+O\+N\+T\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9f20378448c6afaeaf8e3b366a953096}
+}]\index{E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T@{E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T@{E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a8ab14d43bc98a3992fbd75a90a98bdbb}{E\+L\+E\+M\+E\+N\+T\+\_\+\+N\+A\+M\+E\+\_\+\+A\+N\+D\+\_\+\+C\+O\+N\+T\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a8ab14d43bc98a3992fbd75a90a98bdbb}
+}]\index{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G@{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G@{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a3492102454e88f259c4ddc0a3e7019a8}{E\+L\+E\+M\+E\+N\+T\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a3492102454e88f259c4ddc0a3e7019a8}
+}]\index{S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G@{S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G@{S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9913dbf171247c30b8695e085ecfb217}{S\+E\+L\+F\+\_\+\+C\+L\+O\+S\+I\+N\+G\+\_\+\+T\+A\+G}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9913dbf171247c30b8695e085ecfb217}
+}]\index{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T@{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T@{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ac275b6725664d99466fb91888472687e}{S\+T\+A\+R\+T\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253ac275b6725664d99466fb91888472687e}
+}]\index{I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T@{I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T@{I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9533085927f677c97351684c2dc6c826}{I\+N\+\_\+\+C\+O\+M\+M\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a9533085927f677c97351684c2dc6c826}
+}]\index{E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T@{E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T@{E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a84070e40e9f6a2f48e0ab305262726b2}{E\+N\+D\+I\+N\+G\+\_\+\+C\+O\+M\+M\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a84070e40e9f6a2f48e0ab305262726b2}
+}]\index{O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T@{O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253af4123fd1ebe2fa5c4c5c7d0870cc030f}{O\+N\+E\+\_\+\+L\+I\+N\+E\+\_\+\+C\+O\+M\+M\+E\+N\+T}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253af4123fd1ebe2fa5c4c5c7d0870cc030f}
+}]\index{E\+R\+R\+O\+R@{E\+R\+R\+O\+R}!main.\+cpp@{main.\+cpp}}\index{main.\+cpp@{main.\+cpp}!E\+R\+R\+O\+R@{E\+R\+R\+O\+R}}\item[{\em 
+\hypertarget{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a2fd6f336d08340583bd620a7f5694c90}{E\+R\+R\+O\+R}\label{main_8cpp_acf067a9f09c2b2135f1a80d61e5eb253a2fd6f336d08340583bd620a7f5694c90}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 68 of file main.\+cpp.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{main_8cpp_a451badf8164f3272b6421feeba7d2b7e}{\index{main.\+cpp@{main.\+cpp}!add\+Spaces@{add\+Spaces}}
+\index{add\+Spaces@{add\+Spaces}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{add\+Spaces}]{\setlength{\rightskip}{0pt plus 5cm}void add\+Spaces (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{current\+Element, }
+\item[{ofstream \&}]{os}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a451badf8164f3272b6421feeba7d2b7e}
+Function to add spaces to an output file corresponding with the element's level. This is simply to make the J\+S\+O\+N file more readable and does not affect the file's validity. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Element} & -\/ The current element who's level is be checked. \\
+\hline
+{\em os} & -\/ The output stream of a J\+S\+O\+N file. Passed by reference. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 738 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a7e3cd357bd093abb5fb867b4d194a705}{\index{main.\+cpp@{main.\+cpp}!ask\+Display@{ask\+Display}}
+\index{ask\+Display@{ask\+Display}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{ask\+Display}]{\setlength{\rightskip}{0pt plus 5cm}void ask\+Display (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a7e3cd357bd093abb5fb867b4d194a705}
+Function to as the user if they wish to have the tree building processed displayed for them. If so, the boolean 'show\+Processing' is set to true. 
+
+Definition at line 664 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a645d602cc89c1daede29ed29ae099c1e}{\index{main.\+cpp@{main.\+cpp}!ask\+Output\+Format@{ask\+Output\+Format}}
+\index{ask\+Output\+Format@{ask\+Output\+Format}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{ask\+Output\+Format}]{\setlength{\rightskip}{0pt plus 5cm}bool ask\+Output\+Format (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a645d602cc89c1daede29ed29ae099c1e}
+Function to ask the user for an output format. Currently the only optional output format is as an H\+T\+M\+L file. I considered making the J\+S\+O\+N output optional, but since that is the purpose of the current assignment, the J\+S\+O\+N file will be created no matter what. \begin{DoxyReturn}{Returns}
+-\/ A boolean value that will be checked before creating the H\+T\+M\+L file of the tree. 
+\end{DoxyReturn}
+
+
+Definition at line 700 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a6c0ebd33132cccf680436f8cc2816be4}{\index{main.\+cpp@{main.\+cpp}!clear\+Vector\+Contents@{clear\+Vector\+Contents}}
+\index{clear\+Vector\+Contents@{clear\+Vector\+Contents}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{clear\+Vector\+Contents}]{\setlength{\rightskip}{0pt plus 5cm}void clear\+Vector\+Contents (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Element} $\ast$ $>$ \&}]{vect}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a6c0ebd33132cccf680436f8cc2816be4}
+As each object within the pointer had memory allocated on the heap, they must each be deleted \char`\"{}manually\char`\"{}. 
+\begin{DoxyParams}{Parameters}
+{\em vect} & -\/ The vector of \hyperlink{class_element}{Element} objects, each of which is to be deleted. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 570 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a88877ffccfce5e4b71591f07faa00ebb}{\index{main.\+cpp@{main.\+cpp}!delete\+Tree@{delete\+Tree}}
+\index{delete\+Tree@{delete\+Tree}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{delete\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}void delete\+Tree (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{current\+Element}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a88877ffccfce5e4b71591f07faa00ebb}
+Recursively traverses the tree, delete elements that whose memory was allocated dynamically. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Element} & -\/ The element that is to be deleted after all it's children are deleted. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 645 of file main.\+cpp.
+
+\hypertarget{main_8cpp_af32ca95b1cd369f88dcdbfa80c0503fb}{\index{main.\+cpp@{main.\+cpp}!display\+Tree@{display\+Tree}}
+\index{display\+Tree@{display\+Tree}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{display\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}void display\+Tree (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{current\+Element}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_af32ca95b1cd369f88dcdbfa80c0503fb}
+Function that is called recursively to output the element tree, which is already stored in it's entirety in memory. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Element} & -\/ The current element whose information is to be displayed. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 583 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+Standard C++ main function. 
+\begin{DoxyParams}{Parameters}
+{\em argc} & -\/ Number of command line arguments. \\
+\hline
+{\em argv} & -\/ Array of pointers to command line arguments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ Returns error code if the program does not end properly. 
+\end{DoxyReturn}
+If the 'open\+File' function exits successfully, the element tree is displayed, converted to a J\+S\+O\+N structure and exported, exported as an H\+T\+M\+L file, then deleted recursively.
+
+Definition at line 945 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a77affb2028c25422b7db58f932d3bf1a}{\index{main.\+cpp@{main.\+cpp}!openfile@{openfile}}
+\index{openfile@{openfile}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{openfile}]{\setlength{\rightskip}{0pt plus 5cm}int openfile (
+\begin{DoxyParamCaption}
+\item[{string}]{str\+Path}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a77affb2028c25422b7db58f932d3bf1a}
+This function opens and reads the passed text file, line by line. As each line is taken from the input file, leading white space is removed, the current state is determined by calling the 'parse' function, and the line is processed. The 'process\+Line' function will also display relevant information about the current line. As each line is processed, an element tree is created. 
+\begin{DoxyParams}{Parameters}
+{\em str\+Path} & -\/ The name of the file to be read. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Status flag -\/ If the current state after reading the file is not 'E\+R\+R\+O\+R', returns E\+X\+I\+T\+\_\+\+S\+U\+C\+C\+E\+S\+S. 
+\end{DoxyReturn}
+
+
+Definition at line 501 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a861d1c103bd2b4da4b7531659a80a53d}{\index{main.\+cpp@{main.\+cpp}!parse@{parse}}
+\index{parse@{parse}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{parse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Parser\+State} parse (
+\begin{DoxyParamCaption}
+\item[{string}]{current\+Line, }
+\item[{{\bf Parser\+State}}]{current\+State, }
+\item[{string \&}]{content, }
+\item[{string \&}]{tag\+Name}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a861d1c103bd2b4da4b7531659a80a53d}
+This function parses a line read from the X\+M\+L file, extracts the appropriate content and returns the determined state. The function assumes that the 'trim' function has already been applied to the line of text, removing any leading white space and/or tabs. Further assumptions are as follows\+: (1) The X\+M\+L file is well-\/formed. (2) There is at most one complete element per line. (3) All element opening tags start on new lines. (4) If there is an element closing tag, it is the last thing to appear on that line. (5) If there is no element closing tag on the same line as an element opening tag, the line has no content. (6) Attributes and their values are ignored. Much of this logic of this function is based on lecture notes of Prof. Jesse Heines of U\+M\+L for the 91.\+204 Computing I\+V course. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Line} & -\/ Most recent line read from X\+M\+L file by 'open\+File' function \\
+\hline
+{\em current\+State} & -\/ The current state of the parser as determined by the last line parsed. \\
+\hline
+{\em content} & -\/ Used to store extracted content, if applicable. Passed by ref. \\
+\hline
+{\em tag\+Name} & -\/ Used to store extracted tag name, if applicable. Passed by ref. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ The new parser state as determined by the algorithm in the function. 
+\end{DoxyReturn}
+
+
+Definition at line 137 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a9f595d1fb9de99abfd4e8b5527c5de59}{\index{main.\+cpp@{main.\+cpp}!procces\+Line@{procces\+Line}}
+\index{procces\+Line@{procces\+Line}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{procces\+Line}]{\setlength{\rightskip}{0pt plus 5cm}void procces\+Line (
+\begin{DoxyParamCaption}
+\item[{string}]{current\+Line, }
+\item[{{\bf Parser\+State} \&}]{current\+State, }
+\item[{int}]{line\+Number, }
+\item[{string}]{content, }
+\item[{string}]{tag\+Name}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_a9f595d1fb9de99abfd4e8b5527c5de59}
+Function to process each line, building the element tree. If the user has chosen so, the tree building itself will be displayed. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Line} & -\/ The current line of an X\+M\+L file which is to be processed. \\
+\hline
+{\em current\+State} & -\/ The current parser state of the X\+M\+L file. Used to give context to a line. \\
+\hline
+{\em line\+Number} & -\/ The line number on which the current line was found. \\
+\hline
+{\em content} & -\/ The content within an element that was extracted from the 'parse' function. \\
+\hline
+{\em tag\+Name} & -\/ The tag name that was extracted from an X\+M\+L opening tag by the 'parse' function. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 280 of file main.\+cpp.
+
+\hypertarget{main_8cpp_aa861769f045b3d9b9d9e8163d7f589ea}{\index{main.\+cpp@{main.\+cpp}!show\+Stack@{show\+Stack}}
+\index{show\+Stack@{show\+Stack}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{show\+Stack}]{\setlength{\rightskip}{0pt plus 5cm}void show\+Stack (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Element} $\ast$ $>$}]{element\+Vect}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_aa861769f045b3d9b9d9e8163d7f589ea}
+This function iterates through the element\+Vect, which is used as a stack, displaying the current stack content. This is called whenever the stack content is changed. 
+\begin{DoxyParams}{Parameters}
+{\em element\+Vect} & -\/ The vector which stores element pointers, used to implement a stack. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 251 of file main.\+cpp.
+
+\hypertarget{main_8cpp_aef8b32e84ae75e2c42f7d363451bc006}{\index{main.\+cpp@{main.\+cpp}!Show\+State@{Show\+State}}
+\index{Show\+State@{Show\+State}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{Show\+State}]{\setlength{\rightskip}{0pt plus 5cm}void Show\+State (
+\begin{DoxyParamCaption}
+\item[{{\bf Parser\+State}}]{ps}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_aef8b32e84ae75e2c42f7d363451bc006}
+This function is used during debugging to display the parser state. This function was created by Prof. Jesse Heines of U\+M\+L for the 91.\+204 Computing I\+V course and is taken from that course's lecture notes. 
+\begin{DoxyParams}{Parameters}
+{\em ps} & the parser state \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 82 of file main.\+cpp.
+
+\hypertarget{main_8cpp_aa7cb820696f8a66d03330e091482020c}{\index{main.\+cpp@{main.\+cpp}!trim@{trim}}
+\index{trim@{trim}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{trim}]{\setlength{\rightskip}{0pt plus 5cm}string trim (
+\begin{DoxyParamCaption}
+\item[{string}]{str}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_aa7cb820696f8a66d03330e091482020c}
+Trim leading and trailing white space (spaces and tabs) from the string passed as an argument and return the trimmed string. N\+O\+T\+E\+: This function was written by Prof. Jesse Heines of U\+Mass Lowell for the Fall 2014 91.\+204-\/\+Computing I\+V class. 
+\begin{DoxyParams}{Parameters}
+{\em str} & string to trim \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+trimmed string 
+\end{DoxyReturn}
+
+
+Definition at line 234 of file main.\+cpp.
+
+\hypertarget{main_8cpp_ae37b07364aba704a57b48f4e5ba8cfef}{\index{main.\+cpp@{main.\+cpp}!write\+H\+T\+M\+L@{write\+H\+T\+M\+L}}
+\index{write\+H\+T\+M\+L@{write\+H\+T\+M\+L}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{write\+H\+T\+M\+L}]{\setlength{\rightskip}{0pt plus 5cm}void write\+H\+T\+M\+L (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{current\+Element, }
+\item[{ofstream \&}]{os}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ae37b07364aba704a57b48f4e5ba8cfef}
+This is an experimental function to output the element tree as an H\+T\+M\+L file. This was suggested as an extra challenge for the assignment by Prof. Heines and is not part of the assignment's requirements. This is virtually identical to the algorithm in the 'display\+Tree' function. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Element} & -\/ The current element whose data is to be written to the H\+T\+M\+L file. \\
+\hline
+{\em os} & -\/ ofstream object that is sent recursively to the function. Passed by reference. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 752 of file main.\+cpp.
+
+\hypertarget{main_8cpp_ae995a7e11eacb0f2af38b6dbfb694f44}{\index{main.\+cpp@{main.\+cpp}!write\+J\+S\+O\+N@{write\+J\+S\+O\+N}}
+\index{write\+J\+S\+O\+N@{write\+J\+S\+O\+N}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{write\+J\+S\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}void write\+J\+S\+O\+N (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{current\+Element, }
+\item[{ofstream \&}]{os}
+\end{DoxyParamCaption}
+)}}\label{main_8cpp_ae995a7e11eacb0f2af38b6dbfb694f44}
+Function to output the element tree as a J\+S\+O\+N file. This a very similar algorithm to the 'display\+Tree' and 'write\+H\+T\+M\+L' functions, though with changes that allow for proper J\+S\+O\+N syntax. The function is called recursively, traversing the entire element tree and creating a matching J\+S\+O\+N structure. 
+\begin{DoxyParams}{Parameters}
+{\em current\+Element} & -\/ The element whose children and attributes are to be written to the J\+S\+O\+N file. \\
+\hline
+{\em os} & -\/ The output stream to the J\+S\+O\+N file. Passed by reference. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 837 of file main.\+cpp.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{main_8cpp_acc33adf2456394a580161525e4a3b27a}{\index{main.\+cpp@{main.\+cpp}!current\+Element@{current\+Element}}
+\index{current\+Element@{current\+Element}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{current\+Element}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Element}$\ast$ current\+Element = new {\bf Element}}}\label{main_8cpp_acc33adf2456394a580161525e4a3b27a}
+This is an element which is used as a placeholder for the current element being processed in the tree. 
+
+Definition at line 49 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a6000a12598b39a006e805f76443ca2d9}{\index{main.\+cpp@{main.\+cpp}!element\+Vect@{element\+Vect}}
+\index{element\+Vect@{element\+Vect}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{element\+Vect}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Element}$\ast$$>$ element\+Vect}}\label{main_8cpp_a6000a12598b39a006e805f76443ca2d9}
+Vector which acts as a stack, storing pointers to elements. This is used as the element tree is being built to display the building process. 
+
+Definition at line 43 of file main.\+cpp.
+
+\hypertarget{main_8cpp_ae6188827e9bf492bfd98c44ee0049bf6}{\index{main.\+cpp@{main.\+cpp}!empty\+Root@{empty\+Root}}
+\index{empty\+Root@{empty\+Root}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{empty\+Root}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Element}$\ast$ empty\+Root = {\bf current\+Element}}}\label{main_8cpp_ae6188827e9bf492bfd98c44ee0049bf6}
+A place holder \char`\"{}empty\char`\"{} element that is used to determine if the current element has been changd. This is used in the tree building and display process. Important note\+: This is N\+O\+T the root element of the X\+M\+L file or the tree. 
+
+Definition at line 56 of file main.\+cpp.
+
+\hypertarget{main_8cpp_a43e6c54a9b044b60959e96e7335b757c}{\index{main.\+cpp@{main.\+cpp}!show\+Processing@{show\+Processing}}
+\index{show\+Processing@{show\+Processing}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{show\+Processing}]{\setlength{\rightskip}{0pt plus 5cm}bool show\+Processing = false}}\label{main_8cpp_a43e6c54a9b044b60959e96e7335b757c}
+A boolean value that stores whether or not the user wishes to see the tree being built. 
+
+Definition at line 59 of file main.\+cpp.
+

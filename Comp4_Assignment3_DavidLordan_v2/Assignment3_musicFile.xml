@@ -1,0 +1,1650 @@
+<!--  File:   Assignment3_musicFile.xml             -->                 
+<!--  Author: David Lordan, UMass Lowell Computer Science  -->
+<!--  david_lordan@student.uml.edu-->
+<!--  Created on September 25th, 2014, 5:02 PM, -->
+<!--  Modified on Oct 1st at 8:23 PM-->
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <!-- This is an XML file for the album "Physical Graffiti" by Led Zeppelin, -->
+    <!-- which was found on the MusicBrainz website. Source URL: -->
+    <!-- http://musicbrainz.org/ws/2/release/0d06025c-afff-49fd-a1db-8005e686e4d9?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings -->
+    <release id="0d06025c-afff-49fd-a1db-8005e686e4d9">
+        <title>Physical Graffiti</title>
+        <status>Official</status>
+        <quality>normal</quality>
+        <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+        </text-representation>
+        <artist-credit>
+            <name-credit>
+                <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                    <name>Led Zeppelin</name>
+                    <sort-name>Led Zeppelin</sort-name>
+                </artist>
+            </name-credit>
+        </artist-credit>
+        <date>1975-02-24</date>
+        <country>US</country>
+        <release-event-list count="1">
+            <release-event>
+                <date>1975-02-24</date>
+                <area id="489ce91b-6658-3307-9877-795b68554c98">
+                    <name>United States</name>
+                    <sort-name>United States</sort-name>
+                    <iso-3166-1-code-list>
+                        <iso-3166-1-code>US</iso-3166-1-code>
+                    </iso-3166-1-code-list>
+                </area>
+            </release-event>
+        </release-event-list>
+        <barcode/>
+        <cover-art-archive>
+            <artwork>true</artwork>
+            <count>3</count>
+            <front>true</front>
+            <back>false</back>
+        </cover-art-archive>
+        <label-info-list count="1">
+            <label-info>
+                <catalog-number>SS 2-200</catalog-number>
+                <label id="e6b3a9cb-23a5-41ed-9bd9-bc540ef19bf5">
+                    <name>Swan Song</name>
+                    <sort-name>Swan Song</sort-name>
+                </label>
+            </label-info>
+        </label-info-list>
+        <medium-list count="2">
+            <medium>
+                <position>1</position>
+                <format>12" Vinyl</format>
+                <disc-list count="0"/>
+                <track-list count="6" offset="0">
+                    <track id="e1f254e1-815f-3797-a227-ac461da20805">
+                        <position>1</position>
+                        <number>A1</number>
+                        <length>253960</length>
+                        <recording id="a113d682-a6b1-41c1-a69e-d6b3afdda185">
+                            <title>Custard Pie</title>
+                            <length>253960</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="bfb7d27f-8528-3483-95c1-935729d816ef">
+                        <position>2</position>
+                        <number>A2</number>
+                        <length>337133</length>
+                        <recording id="9dc19ed4-7505-4dba-be33-b304521ed610">
+                            <title>The Rover</title>
+                            <length>337133</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="a7268993-682f-3772-8dec-ff6598805883">
+                        <position>3</position>
+                        <number>A3</number>
+                        <length>665973</length>
+                        <recording id="4b3b1445-9c36-4b9f-a38a-9ffa40671857">
+                            <title>In My Time of Dying</title>
+                            <length>665973</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="5639d663-6ec5-313f-8c77-6330860143ab">
+                        <position>4</position>
+                        <number>B1</number>
+                        <length>242333</length>
+                        <recording id="3e0cc204-4d17-484f-bec3-7c2a9727db36">
+                            <title>Houses of the Holy</title>
+                            <length>242333</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="ca3c2533-3eb1-3294-9d6e-d0d1b61e2ac6">
+                        <position>5</position>
+                        <number>B2</number>
+                        <length>336533</length>
+                        <recording id="cecb1a98-2b43-4349-9630-0893f68f1951">
+                            <title>Trampled Under Foot</title>
+                            <length>336200</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="15895141-9d7a-3ad5-ba2d-243eb47a2785">
+                        <position>6</position>
+                        <number>B3</number>
+                        <length>508466</length>
+                        <recording id="9c08d02d-5e49-4ef9-b538-dce167adc54a">
+                            <title>Kashmir</title>
+                            <length>509000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+            <medium>
+                <position>2</position>
+                <format>12" Vinyl</format>
+                <disc-list count="0"/>
+                <track-list count="9" offset="0">
+                    <track id="a4fbe4c9-d8e8-38da-9afe-c809a4613f7f">
+                        <position>1</position>
+                        <number>C1</number>
+                        <length>526906</length>
+                        <recording id="19595942-7585-4172-8997-c77568161383">
+                            <title>In the Light</title>
+                            <length>526906</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="79d81694-efc7-353d-b34c-3a96e6b521aa">
+                        <position>2</position>
+                        <number>C2</number>
+                        <length>126400</length>
+                        <recording id="677cf0a2-a7cc-4581-931b-2b0b7d095b0c">
+                            <title>Bron-Yr-Aur</title>
+                            <length>126400</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="e3424d11-44b3-34e1-a7c3-e54664b20834">
+                        <position>3</position>
+                        <number>C3</number>
+                        <length>315960</length>
+                        <recording id="be3ccb5a-c43a-4c57-b73f-16791160fe7d">
+                            <title>Down by the Seaside</title>
+                            <length>315960</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="b664b7c0-57de-3f66-a98d-ac3fa8ffe634">
+                        <position>4</position>
+                        <number>C4</number>
+                        <length>393306</length>
+                        <recording id="8633e5de-2a69-478b-af88-502480765d40">
+                            <title>Ten Years Gone</title>
+                            <length>393000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="ba34a4cf-ebb7-3a7f-8feb-f235c6031f17">
+                        <position>5</position>
+                        <number>D1</number>
+                        <length>217626</length>
+                        <recording id="9fb4b64f-5b54-4bb4-87c7-b347e09e7860">
+                            <title>Night Flight</title>
+                            <length>217626</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="f079cc8d-a2e1-30a8-bf27-b8e43eb29c05">
+                        <position>6</position>
+                        <number>D2</number>
+                        <length>249600</length>
+                        <recording id="849b0027-0cc9-4add-98fa-c5d470bbf8e1">
+                            <title>The Wanton Song</title>
+                            <length>249600</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="6253114e-3fbb-3cd0-a69d-e3c4857dfef1">
+                        <position>7</position>
+                        <number>D3</number>
+                        <length>233173</length>
+                        <recording id="f26e65fb-ae84-48e1-92e0-1c8644b81e8d">
+                            <title>Boogie With Stu</title>
+                            <length>233173</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="932ae375-d5a2-3003-8ad6-cefc344bd492">
+                        <position>8</position>
+                        <number>D4</number>
+                        <length>272960</length>
+                        <recording id="082d4d32-9237-479c-8c56-bee5c1ae4b3a">
+                            <title>Black Country Woman</title>
+                            <length>272960</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="18acfc69-275e-3714-ad75-4347d3565bce">
+                        <position>9</position>
+                        <number>D5</number>
+                        <length>282866</length>
+                        <recording id="edcdffc8-6875-4872-bda5-c61e1ea6913f">
+                            <title>Sick Again</title>
+                            <length>282866</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="678d88b2-87b0-403b-b63d-5da7465aecc3">
+                                        <name>Led Zeppelin</name>
+                                        <sort-name>Led Zeppelin</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+        </medium-list>
+    </release>
+    <!-- This is an XML file for the album "Abbey Road" by The Beatles. -->
+    <!-- which was found on the MusicBrainz website. Source URL: -->
+    <!-- http://musicbrainz.org/ws/2/release/d6010be3-98f8-422c-a6c9-787e2e491e58?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings -->
+    <release id="d6010be3-98f8-422c-a6c9-787e2e491e58">
+        <title>Abbey Road</title>
+        <status>Official</status>
+        <quality>normal</quality>
+        <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+        </text-representation>
+        <artist-credit>
+            <name-credit>
+                <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                    <name>The Beatles</name>
+                    <sort-name>Beatles, The</sort-name>
+                </artist>
+            </name-credit>
+        </artist-credit>
+        <date>1969-09-26</date>
+        <country>GB</country>
+        <release-event-list count="1">
+            <release-event>
+                <date>1969-09-26</date>
+                <area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed">
+                    <name>United Kingdom</name>
+                    <sort-name>United Kingdom</sort-name>
+                    <iso-3166-1-code-list>
+                        <iso-3166-1-code>GB</iso-3166-1-code>
+                    </iso-3166-1-code-list>
+                </area>
+            </release-event>
+        </release-event-list>
+        <cover-art-archive>
+            <artwork>true</artwork>
+            <count>1</count>
+            <front>true</front>
+            <back>false</back>
+        </cover-art-archive>
+        <label-info-list count="1">
+            <label-info>
+                <catalog-number>PCS 7088</catalog-number>
+                <label id="cf7fc5cf-e011-4ef4-b511-cd0188537910">
+                    <name>Apple Records</name>
+                    <sort-name>Apple Records</sort-name>
+                    <label-code>1074</label-code>
+                </label>
+            </label-info>
+        </label-info-list>
+        <medium-list count="1">
+            <medium>
+                <position>1</position>
+                <format>12" Vinyl</format>
+                <disc-list count="0"/>
+                <track-list count="17" offset="0">
+                    <track id="af19bbfd-fb14-3d15-a6aa-8072cf06775a">
+                        <position>1</position>
+                        <number>1</number>
+                        <length>261000</length>
+                        <recording id="485bbe7f-d0f7-4ffe-8adb-0f1093dd2dbf">
+                            <title>Come Together</title>
+                            <length>260626</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="1745aa16-a379-3623-93f1-43702101ce29">
+                        <position>2</position>
+                        <number>2</number>
+                        <length>183000</length>
+                        <recording id="b849acd4-0638-49ea-8e40-7391613d4890">
+                            <title>Something</title>
+                            <length>183000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="00b6d385-f307-3734-b42e-534fa6f50011">
+                        <position>3</position>
+                        <number>3</number>
+                        <length>207000</length>
+                        <recording id="a92380e6-f10d-4407-aceb-5825b17fed5a">
+                            <title>Maxwell’s Silver Hammer</title>
+                            <length>207000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="cf71d9b0-22e3-35bf-97db-d670ef032c31">
+                        <position>4</position>
+                        <number>4</number>
+                        <length>207000</length>
+                        <recording id="de896c41-463d-4eaa-8fe4-d826e2afa0f8">
+                            <title>Oh! Darling</title>
+                            <length>207000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="9502fed2-e520-3d39-a698-7be0f4874516">
+                        <position>5</position>
+                        <number>5</number>
+                        <title>Octopus’s Garden</title>
+                        <length>171000</length>
+                        <recording id="15127932-c879-466e-b0f8-a1c5022d16e7">
+                            <title>Octopus's Garden</title>
+                            <length>171000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="cf64f6d1-9602-38df-94e8-b09bb2abc5a2">
+                        <position>6</position>
+                        <number>6</number>
+                        <title>I Want You (She's So Heavy)</title>
+                        <length>467000</length>
+                        <recording id="a9a83384-3da3-4c84-af6d-33fcdb1c3e27">
+                            <title>I Want You (She’s So Heavy)</title>
+                            <length>467000</length>
+                            <disambiguation>original stereo mix</disambiguation>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="8a1f63f0-d0fb-335f-9422-1e3eb1a37f4c">
+                        <position>7</position>
+                        <number>7</number>
+                        <length>186000</length>
+                        <recording id="440f60e8-0b25-4ec4-abb1-c6beec624ab0">
+                            <title>Here Comes the Sun</title>
+                            <length>186000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="6e11a7e4-f15f-35b8-b1d6-c5e26fed7d9d">
+                        <position>8</position>
+                        <number>8</number>
+                        <length>166000</length>
+                        <recording id="1e1d1f33-346c-4f9a-ad05-03aa715c2f37">
+                            <title>Because</title>
+                            <length>166000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="83528d65-66a8-3bbb-8f56-4f2cf6da9199">
+                        <position>9</position>
+                        <number>9</number>
+                        <length>242000</length>
+                        <recording id="474546e9-0b30-4881-9269-c6c1c8bbf07b">
+                            <title>You Never Give Me Your Money</title>
+                            <length>242000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="daedde6c-9ab1-3e61-b86a-5e2d4709293c">
+                        <position>10</position>
+                        <number>10</number>
+                        <length>146000</length>
+                        <recording id="d057c75d-04eb-438f-be0b-74f629f2953c">
+                            <title>Sun King</title>
+                            <length>146000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="7ab529d1-b722-3f22-956c-eb57d1364535">
+                        <position>11</position>
+                        <number>11</number>
+                        <length>66000</length>
+                        <recording id="99c004fb-ba87-41be-afd4-e0157b40516a">
+                            <title>Mean Mr. Mustard</title>
+                            <length>66000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="e5167f08-ee05-3f2b-ad08-2781e814aa0e">
+                        <position>12</position>
+                        <number>12</number>
+                        <length>73000</length>
+                        <recording id="65ca55c8-d857-4a3b-9246-835b1e54fe4d">
+                            <title>Polythene Pam</title>
+                            <length>73000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="88b95ae3-c386-3564-8dc5-fe514aaabb15">
+                        <position>13</position>
+                        <number>13</number>
+                        <length>118000</length>
+                        <recording id="c19db4d3-6640-4732-a0b2-e358ed80c5c4">
+                            <title>She Came in Through the Bathroom Window</title>
+                            <length>118000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="8f750a56-f807-3a90-8903-69012b5c47d1">
+                        <position>14</position>
+                        <number>14</number>
+                        <length>92000</length>
+                        <recording id="3d7f2000-123d-4cac-862b-e04ead24c5f2">
+                            <title>Golden Slumbers</title>
+                            <length>92000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="41965da0-4cee-3f34-9b08-e89066f09561">
+                        <position>15</position>
+                        <number>15</number>
+                        <length>97000</length>
+                        <recording id="daaee15a-8a4c-4275-a7c1-5b6211f0ec69">
+                            <title>Carry That Weight</title>
+                            <length>97000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="b44542fd-45ca-34d2-9b12-9fe1e28a721d">
+                        <position>16</position>
+                        <number>16</number>
+                        <length>140000</length>
+                        <recording id="5ad78393-77c2-451e-beb1-074df7e06e57">
+                            <title>The End</title>
+                            <length>140000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="5a099b73-19b0-3f89-8895-87b4446bb262">
+                        <position>17</position>
+                        <number>17</number>
+                        <length>23000</length>
+                        <recording id="ed8d1b3b-8757-447a-baba-3efe027f2765">
+                            <title>Her Majesty</title>
+                            <length>23000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d">
+                                        <name>The Beatles</name>
+                                        <sort-name>Beatles, The</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+        </medium-list>
+    </release>
+    <!-- This is an XML file for the album "The Rise and Fall of Ziggy Stardust and the Spiders From Mars" by David Bowie. -->
+    <!-- which was found on the MusicBrainz website. Source URL: -->
+    <!-- http://musicbrainz.org/ws/2/release/421a2686-2cc5-36bf-9899-fe94cf22cfb2?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings -->
+    <release id="421a2686-2cc5-36bf-9899-fe94cf22cfb2">
+        <title>
+            The Rise and Fall of Ziggy Stardust and the Spiders From Mars
+        </title>
+        <status>Official</status>
+        <quality>normal</quality>
+        <packaging>Cardboard/Paper Sleeve</packaging>
+        <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+        </text-representation>
+        <artist-credit>
+            <name-credit>
+                <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                    <name>David Bowie</name>
+                    <sort-name>Bowie, David</sort-name>
+                </artist>
+            </name-credit>
+        </artist-credit>
+        <date>1977</date>
+        <country>US</country>
+        <release-event-list count="1">
+            <release-event>
+                <date>1977</date>
+                <area id="489ce91b-6658-3307-9877-795b68554c98">
+                    <name>United States</name>
+                    <sort-name>United States</sort-name>
+                    <iso-3166-1-code-list>
+                        <iso-3166-1-code>US</iso-3166-1-code>
+                    </iso-3166-1-code-list>
+                </area>
+            </release-event>
+        </release-event-list>
+        <barcode/>
+        <cover-art-archive>
+            <artwork>true</artwork>
+            <count>1</count>
+            <front>true</front>
+            <back>false</back>
+        </cover-art-archive>
+        <label-info-list count="1">
+            <label-info>
+                <catalog-number>AFL1-4702</catalog-number>
+                <label id="b3f4e6a5-ece0-43be-a530-68ad0d49fee8">
+                    <name>RCA Victor</name>
+                    <sort-name>RCA Victor</sort-name>
+                    <label-code>316</label-code>
+                </label>
+            </label-info>
+        </label-info-list>
+        <medium-list count="1">
+            <medium>
+                <position>1</position>
+                <format>12" Vinyl</format>
+                <disc-list count="0"/>
+                <track-list count="11" offset="0">
+                    <track id="ec04476a-fe60-3efd-9602-aa30e19badf8">
+                        <position>1</position>
+                        <number>A1</number>
+                        <length>282560</length>
+                        <recording id="9c9345d9-a631-484b-b66b-4e78aa776cb3">
+                            <title>Five Years</title>
+                            <length>282560</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="b9135ca1-0dc0-318c-b562-7510b8d7d5d5">
+                        <position>2</position>
+                        <number>A2</number>
+                        <length>213533</length>
+                        <recording id="e8afe383-1478-497e-90b1-7885c7f37f6e">
+                            <title>Soul Love</title>
+                            <length>213533</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="668868eb-64ca-3e3b-bf79-370f99f7c4d9">
+                        <position>3</position>
+                        <number>A3</number>
+                        <length>278840</length>
+                        <recording id="2ba1f1bd-43dd-45a0-8113-aa07fbe23f7b">
+                            <title>Moonage Daydream</title>
+                            <length>278840</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="6c7226d5-d6ab-3d06-9bef-93ae83583017">
+                        <position>4</position>
+                        <number>A4</number>
+                        <length>253533</length>
+                        <recording id="308bc940-c25c-4847-ab55-4c4cf22683bc">
+                            <title>Starman</title>
+                            <length>255400</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="9faaf26b-80ff-3686-8ff2-273f05d434cd">
+                        <position>5</position>
+                        <number>A5</number>
+                        <length>177493</length>
+                        <recording id="df367f8e-3f2d-4f37-84c7-5e6617e16258">
+                            <title>It Ain’t Easy</title>
+                            <length>177493</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="ac655cf1-d2db-35ba-aaeb-faf781976151">
+                        <position>6</position>
+                        <number>B1</number>
+                        <length>200373</length>
+                        <recording id="2ca5c833-8f3d-4566-9d61-a2294ea996ac">
+                            <title>Lady Stardust</title>
+                            <length>200373</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="3754bf05-5d30-3ecd-b7fd-3e4005d83e93">
+                        <position>7</position>
+                        <number>B2</number>
+                        <length>166666</length>
+                        <recording id="674e786f-19ac-462b-98ab-e5340248a7f2">
+                            <title>Star</title>
+                            <length>166666</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="7a73c49d-9e4d-3754-bb9c-43742d79eb4e">
+                        <position>8</position>
+                        <number>B3</number>
+                        <title>Hang On to Yourself</title>
+                        <length>158733</length>
+                        <recording id="d76c72e3-3338-4d66-a3e1-7e9f5f71f95b">
+                            <title>Hang on to Yourself</title>
+                            <length>158733</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="29eb524b-6b69-354e-953e-239b04c24928">
+                        <position>9</position>
+                        <number>B4</number>
+                        <length>192866</length>
+                        <recording id="a0ca0cc0-cc0d-431c-8a36-dd917ea0dfa2">
+                            <title>Ziggy Stardust</title>
+                            <length>193266</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="741d50c5-6e27-3ac0-811c-480a3f5c0669">
+                        <position>10</position>
+                        <number>B5</number>
+                        <length>204360</length>
+                        <recording id="4ce20795-0558-4302-943a-7f621f49aad6">
+                            <title>Suffragette City</title>
+                            <length>206400</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="e0ba581a-d340-3dae-b47f-fc5d9f8acd82">
+                        <position>11</position>
+                        <number>B6</number>
+                        <length>180733</length>
+                        <recording id="4e09e693-ee84-462f-9d21-c5cecccdc5ac">
+                            <title>Rock ’n’ Roll Suicide</title>
+                            <length>180306</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="5441c29d-3602-4898-b1a1-b77fa23b8e50">
+                                        <name>David Bowie</name>
+                                        <sort-name>Bowie, David</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+        </medium-list>
+    </release>
+    <!-- This is an XML file for the album "Band of Gypsys" by Jimi Hendrix. -->
+    <!-- which was found on the MusicBrainz website. Source URL: -->
+    <!-- http://musicbrainz.org/ws/2/release/af028531-4b4a-31e7-92ea-41aaf78379d4?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings -->
+    <release id="af028531-4b4a-31e7-92ea-41aaf78379d4">
+        <title>Band of Gypsys</title>
+        <status>Official</status>
+        <quality>normal</quality>
+        <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+        </text-representation>
+        <artist-credit>
+            <name-credit>
+                <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                    <name>Jimi Hendrix</name>
+                    <sort-name>Hendrix, Jimi</sort-name>
+                </artist>
+            </name-credit>
+        </artist-credit>
+        <date>1970-06-12</date>
+        <country>GB</country>
+        <release-event-list count="1">
+            <release-event>
+                <date>1970-06-12</date>
+                <area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed">
+                    <name>United Kingdom</name>
+                    <sort-name>United Kingdom</sort-name>
+                    <iso-3166-1-code-list>
+                        <iso-3166-1-code>GB</iso-3166-1-code>
+                    </iso-3166-1-code-list>
+                </area>
+            </release-event>
+        </release-event-list>
+        <cover-art-archive>
+            <artwork>false</artwork>
+            <count>0</count>
+            <front>false</front>
+            <back>false</back>
+        </cover-art-archive>
+        <label-info-list count="1">
+            <label-info>
+                <catalog-number>2406 002</catalog-number>
+                <label id="09edd90d-2d30-4dcb-b03e-71af9c8f1fe6">
+                    <name>Track Record</name>
+                    <sort-name>Track Record</sort-name>
+                </label>
+            </label-info>
+        </label-info-list>
+        <medium-list count="1">
+            <medium>
+                <position>1</position>
+                <format>12" Vinyl</format>
+                <disc-list count="0"/>
+                <track-list count="6" offset="0">
+                    <track id="2c142fc6-e7d2-3812-a9bc-009b7f1939d7">
+                        <position>1</position>
+                        <number>1</number>
+                        <length>579466</length>
+                        <recording id="81b73647-c78f-448d-9cd3-eabdb03f5805">
+                            <title>Who Knows</title>
+                            <length>579466</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="a1b98246-80d2-37ac-acf6-b3cdfeb9a249">
+                        <position>2</position>
+                        <number>2</number>
+                        <length>760973</length>
+                        <recording id="2858fe62-e576-4fd5-bc50-d9a5c157613c">
+                            <title>Machine Gun</title>
+                            <length>760973</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="09a5920a-f4ac-3b57-90b8-53bf899c2d48">
+                        <position>3</position>
+                        <number>3</number>
+                        <length>314133</length>
+                        <recording id="d375ce7f-2de2-4f56-b784-e1f324b84084">
+                            <title>Changes</title>
+                            <length>314000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="7e1c4990-82ff-32f0-956b-cdcb1131011e">
+                        <position>4</position>
+                        <number>4</number>
+                        <title>Power of Soul</title>
+                        <length>418293</length>
+                        <recording id="e3fa615d-2226-47e4-83ac-57de5fdbe76e">
+                            <title>Power to Love</title>
+                            <length>418000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="121d03b6-fd8f-32a4-b692-1c694dba1e4a">
+                        <position>5</position>
+                        <number>5</number>
+                        <length>325733</length>
+                        <recording id="1fb6c1a3-265a-4df4-9f6a-0e7114cad110">
+                            <title>Message to Love</title>
+                            <length>325733</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="b75a0f8d-8fda-3e1e-a4cc-8ce963794e00">
+                        <position>6</position>
+                        <number>6</number>
+                        <length>350400</length>
+                        <recording id="e39055f1-fafb-44d7-bed7-e10d366ccbb6">
+                            <title>We Gotta Live Together</title>
+                            <length>350400</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="06fb1c8b-566e-4cb2-985b-b467c90781d4">
+                                        <name>Jimi Hendrix</name>
+                                        <sort-name>Hendrix, Jimi</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+        </medium-list>
+    </release>
+    <!-- This is an XML file for the album "Amnesiac" by Radiohead. -->
+    <!-- which was found on the MusicBrainz website. Source URL: -->
+    <!-- http://musicbrainz.org/ws/2/release/8013d9eb-2128-364b-809a-5d3802b7a7e1?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings -->
+    <release id="8013d9eb-2128-364b-809a-5d3802b7a7e1">
+        <title>Amnesiac</title>
+        <status>Official</status>
+        <quality>normal</quality>
+        <text-representation>
+            <language>eng</language>
+            <script>Latn</script>
+        </text-representation>
+        <artist-credit>
+            <name-credit>
+                <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                    <name>Radiohead</name>
+                    <sort-name>Radiohead</sort-name>
+                </artist>
+            </name-credit>
+        </artist-credit>
+        <date>2009-08-31</date>
+        <country>GB</country>
+        <release-event-list count="1">
+            <release-event>
+                <date>2009-08-31</date>
+                <area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed">
+                    <name>United Kingdom</name>
+                    <sort-name>United Kingdom</sort-name>
+                    <iso-3166-1-code-list>
+                        <iso-3166-1-code>GB</iso-3166-1-code>
+                    </iso-3166-1-code-list>
+                </area>
+            </release-event>
+        </release-event-list>
+        <barcode>5099969710322</barcode>
+        <asin>B002BF96IY</asin>
+        <cover-art-archive>
+            <artwork>false</artwork>
+            <count>0</count>
+            <front>false</front>
+            <back>false</back>
+        </cover-art-archive>
+        <label-info-list count="1">
+            <label-info>
+                <catalog-number>RHEADCD 5</catalog-number>
+                <label id="c029628b-6633-439e-bcee-ed02e8a338f7">
+                    <name>EMI</name>
+                    <sort-name>EMI</sort-name>
+                    <disambiguation>"EMI" logo; 1972–today</disambiguation>
+                    <label-code>542</label-code>
+                </label>
+            </label-info>
+        </label-info-list>
+        <medium-list count="2">
+            <medium>
+                <position>1</position>
+                <format>CD</format>
+                <disc-list count="13">
+                    <disc id=".6bF1n3FPNoDL.1k3gcUk0WxXe4-">
+                        <sectors>197841</sectors>
+                    </disc>
+                    <disc id="7.DQT_VnB4RyMi5nQkEbH.FZitU-">
+                        <sectors>197091</sectors>
+                    </disc>
+                    <disc id="FSRI6svKH6NFNZQ_oUyhZjKZz_U-">
+                        <sectors>197799</sectors>
+                    </disc>
+                    <disc id="JmBAtzp0LUZdZxMY2Vyf6WYFyzk-">
+                        <sectors>198802</sectors>
+                    </disc>
+                    <disc id="P5Xo5z9tQI6qeanX4O9SR5iKwNM-">
+                        <sectors>197319</sectors>
+                    </disc>
+                    <disc id="PWnAHvn10mCOdyqQBif8jwCDx6s-">
+                        <sectors>199602</sectors>
+                    </disc>
+                    <disc id="XHbxjpGaA_m5KEPS5_n9RshDyLw-">
+                        <sectors>200974</sectors>
+                    </disc>
+                    <disc id="lmg5uPYjCzloM3cTlspD4jjqXqw-">
+                        <sectors>197382</sectors>
+                    </disc>
+                    <disc id="mrE.L2jKu.ROzYU4wkFOS0yB3Ew-">
+                        <sectors>197800</sectors>
+                    </disc>
+                    <disc id="tTy.pRzF2utc5yYaDRsrnMoKi3s-">
+                        <sectors>212930</sectors>
+                    </disc>
+                    <disc id="wIoUhb1filUDXjS_8rRibbvcwq8-">
+                        <sectors>197850</sectors>
+                    </disc>
+                    <disc id="xjv8xYY3zZpw.W5zIQA.hBC2Jv4-">
+                        <sectors>198877</sectors>
+                    </disc>
+                    <disc id="yhmVCTTsiMpFgUty2btqdLkUkM0-">
+                        <sectors>197950</sectors>
+                    </disc>
+                </disc-list>
+                <track-list count="11" offset="0">
+                    <track id="1f703bc0-d722-3b0a-8812-93007b9d9376">
+                        <position>1</position>
+                        <number>1</number>
+                        <length>240333</length>
+                        <recording id="91960108-a251-48fb-a6b7-0587926a7549">
+                            <title>Packt Like Sardines in a Crushd Tin Box</title>
+                            <length>240000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="f33a5b0a-ba5b-33f3-9161-d2c61027e63c">
+                        <position>2</position>
+                        <number>2</number>
+                        <length>288733</length>
+                        <recording id="666879c8-2083-4f64-bd7a-9a15bac75962">
+                            <title>Pyramid Song</title>
+                            <length>289640</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="5e551272-b86e-3bba-9215-df77be27f462">
+                        <position>3</position>
+                        <number>3</number>
+                        <length>247266</length>
+                        <recording id="d585d71a-283d-4781-bdf2-0840a4b6ec66">
+                            <title>Pulk/Pull Revolving Doors</title>
+                            <length>247266</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="1f7d5539-22f2-3555-8fae-0b432d0fbb2b">
+                        <position>4</position>
+                        <number>4</number>
+                        <length>191000</length>
+                        <recording id="ac776168-8d7c-42e3-a53e-6c1d12761e6d">
+                            <title>You and Whose Army?</title>
+                            <length>191000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="0c375416-0719-37cc-a628-6c94e9d030a6">
+                        <position>5</position>
+                        <number>5</number>
+                        <length>293760</length>
+                        <recording id="5fdd8cf0-ebd0-4259-a5f1-84130d5bd4ca">
+                            <title>I Might Be Wrong</title>
+                            <length>293760</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="eb563224-7697-3503-a811-517cb06c74dc">
+                        <position>6</position>
+                        <number>6</number>
+                        <length>254866</length>
+                        <recording id="18441305-0d00-4f4f-a932-2e3262e8f793">
+                            <title>Knives Out</title>
+                            <length>255000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="aad4a78a-55b9-31ca-9584-76e50df66072">
+                        <position>7</position>
+                        <number>7</number>
+                        <length>194266</length>
+                        <recording id="50d5c3f8-03d6-4d9f-a38c-5421b1c5d348">
+                            <title>Morning Bell/Amnesiac</title>
+                            <length>194266</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="9143a633-c6ea-30f6-8fc8-2e6f5e53d982">
+                        <position>8</position>
+                        <number>8</number>
+                        <length>291733</length>
+                        <recording id="872937f1-e201-4b71-8085-2a1b06050fa0">
+                            <title>Dollars and Cents</title>
+                            <length>291733</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="3b3d5da9-982a-3c17-81e5-9368a8545c77">
+                        <position>9</position>
+                        <number>9</number>
+                        <length>121200</length>
+                        <recording id="b5dd28ac-0a1e-45cb-b4ad-a9aefe7ee167">
+                            <title>Hunting Bears</title>
+                            <length>121200</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="ae009fac-94dd-3c4d-b4d1-c20f20a7fb8e">
+                        <position>10</position>
+                        <number>10</number>
+                        <length>237466</length>
+                        <recording id="83dd8e3d-425b-44ca-a07f-e29bc24c1ac1">
+                            <title>Like Spinning Plates</title>
+                            <length>237466</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="fa416b5c-535e-33f9-8047-99bd8d510dba">
+                        <position>11</position>
+                        <number>11</number>
+                        <length>274706</length>
+                        <recording id="43e7eafd-ae66-4e0d-9e07-106e1cf10408">
+                            <title>Life in a Glasshouse</title>
+                            <length>274706</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+            <medium>
+                <title>bonus disc</title>
+                <position>2</position>
+                <format>CD</format>
+                <disc-list count="1">
+                    <disc id="p.j5Hd4U._wZq6Pxq9u7v6ViHa8-">
+                        <sectors>282154</sectors>
+                    </disc>
+                </disc-list>
+                <track-list count="15" offset="0">
+                    <track id="f4c70366-18f1-3f30-a9fc-6540559c8d33">
+                        <position>1</position>
+                        <number>1</number>
+                        <length>218493</length>
+                        <recording id="78b03db4-c11f-49df-a098-0b00c3ca80a9">
+                            <title>The Amazing Sounds of Orgy</title>
+                            <length>218000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="1887399c-6f02-3dc0-8b23-84243aa26086">
+                        <position>2</position>
+                        <number>2</number>
+                        <title>Trans-Atlantic Drawl</title>
+                        <length>181866</length>
+                        <recording id="ef510f13-9bec-479f-bad4-6fee37a9cd44">
+                            <title>Trans‐Atlantic Drawl</title>
+                            <length>181866</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="700aa1a1-bc95-345b-af1a-4b8d3f5e6f12">
+                        <position>3</position>
+                        <number>3</number>
+                        <title>Fast-Track</title>
+                        <length>197640</length>
+                        <recording id="1e6d5f4b-531e-46a8-929a-5bf65ad8b04d">
+                            <title>Fast‐Track</title>
+                            <length>197640</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="80d49348-b637-300a-aafb-fe7acc464e30">
+                        <position>4</position>
+                        <number>4</number>
+                        <length>246106</length>
+                        <recording id="f04ed6c9-2926-4612-a136-54e21884ae8e">
+                            <title>Kinetic</title>
+                            <length>245974</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="c8d147d5-ea04-3d9c-bf83-8ec089818b55">
+                        <position>5</position>
+                        <number>5</number>
+                        <length>277666</length>
+                        <recording id="43fb8b14-e95d-494b-b416-459f8fc8daf9">
+                            <title>Worrywort</title>
+                            <length>277666</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="332b9b00-4e49-365b-957f-6cc4bf8c6d1d">
+                        <position>6</position>
+                        <number>6</number>
+                        <length>244133</length>
+                        <recording id="aa369c9c-f4e2-451a-bdf8-e0ce83d6f68e">
+                            <title>Fog</title>
+                            <length>244133</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="db9fa736-dfae-3ef2-ac50-8fd05dd22257">
+                        <position>7</position>
+                        <number>7</number>
+                        <length>323560</length>
+                        <recording id="3559ac9b-66ea-4881-9c52-5b7031e58409">
+                            <title>Cuttooth</title>
+                            <length>324000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="37628918-a3b4-3a0b-a483-42d3dad5e0c6">
+                        <position>8</position>
+                        <number>8</number>
+                        <length>308040</length>
+                        <recording id="1c603519-323e-4453-bd37-eeaea21c8b3b">
+                            <title>Life in a Glasshouse (full length version)</title>
+                            <length>308040</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="ece0e409-39c9-32c2-9c22-03114f085169">
+                        <position>9</position>
+                        <number>9</number>
+                        <length>198186</length>
+                        <recording id="b1d97cdf-a633-44d1-b865-9340d6c45a1a">
+                            <title>You and Whose Army? (live)</title>
+                            <length>198186</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="f1dffe6a-2a73-3461-85ff-a463457732e4">
+                        <position>10</position>
+                        <number>10</number>
+                        <length>184240</length>
+                        <recording id="cfbc66d0-947d-4603-b35c-3066b471f261">
+                            <title>Packt Like Sardines in a Crushd Tin Box (live)</title>
+                            <length>184240</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="45687a68-e6b0-3fe9-8c07-976a5d435e68">
+                        <position>11</position>
+                        <number>11</number>
+                        <length>281133</length>
+                        <recording id="6b98ec58-3704-4ff8-b4b1-c0f231f6ceef">
+                            <title>Dollars and Cents (live)</title>
+                            <length>281133</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="68c59d2e-4ed7-3c98-be5f-56de37916c2e">
+                        <position>12</position>
+                        <number>12</number>
+                        <length>295440</length>
+                        <recording id="f3bef952-907f-4a72-ba52-1dd28cd23509">
+                            <title>I Might Be Wrong (live)</title>
+                            <length>295440</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="bfcfb196-8b60-3b39-aac0-72bf9a30316b">
+                        <position>13</position>
+                        <number>13</number>
+                        <length>263000</length>
+                        <recording id="e669156a-b425-4c84-b99c-e3d384c46ba3">
+                            <title>Knives Out (live)</title>
+                            <length>263000</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="52279951-a5e0-341b-ac03-983d1031cd45">
+                        <position>14</position>
+                        <number>14</number>
+                        <length>307746</length>
+                        <recording id="e8b98b79-795d-4a7c-8cbc-ace7cf8c8167">
+                            <title>Pyramid Song (live)</title>
+                            <length>307746</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                    <track id="a6092598-fb48-3715-8f3d-575a73b02003">
+                        <position>15</position>
+                        <number>15</number>
+                        <length>232800</length>
+                        <recording id="f38895d4-eaed-44ae-b3c4-722d954905ef">
+                            <title>Like Spinning Plates (live)</title>
+                            <length>232800</length>
+                            <artist-credit>
+                                <name-credit>
+                                    <artist id="a74b1b7f-71a5-4011-9441-d0b5e4122711">
+                                        <name>Radiohead</name>
+                                        <sort-name>Radiohead</sort-name>
+                                    </artist>
+                                </name-credit>
+                            </artist-credit>
+                        </recording>
+                    </track>
+                </track-list>
+            </medium>
+        </medium-list>
+    </release>
+</metadata>

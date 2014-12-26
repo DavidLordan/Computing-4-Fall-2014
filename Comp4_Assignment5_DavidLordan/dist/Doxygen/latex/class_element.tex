@@ -1,0 +1,339 @@
+\hypertarget{class_element}{\section{Element Class Reference}
+\label{class_element}\index{Element@{Element}}
+}
+
+
+{\ttfamily \#include $<$Element.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_element_ab0d0e20be9a36ae676202db753faeec9}{Element} ()
+\item 
+\hyperlink{class_element_a6b1a7cd51ec49606308cd7574a3f1543}{Element} (const \hyperlink{class_element}{Element} \&orig)
+\item 
+virtual \hyperlink{class_element_a13d54ba9c08b6bec651402f1c2bb002c}{$\sim$\+Element} ()
+\item 
+\hyperlink{class_element_a78ecd3c39476bafdb481366208503e1d}{Element} (string str\+Element\+Name, int n\+Line\+No, string content, string current\+Line)
+\item 
+int \hyperlink{class_element_a0df9ef693c7789f8d96082d443fa5599}{get\+Line\+No} () const 
+\item 
+string \hyperlink{class_element_a68be77d255e5e4a27620ac9267e431b0}{get\+Tag\+Name} () const 
+\item 
+string \hyperlink{class_element_ad5dd0f5ac62f575e2faad832b98e6e03}{get\+Str\+Content} () const 
+\item 
+void \hyperlink{class_element_a78f1d57cb2d35d4afcfcce667c027e5c}{set\+Str\+Content} (string content)
+\item 
+void \hyperlink{class_element_ab4a3675e61ce853251171a58b345fa8c}{set\+Tag\+Name} (string tag\+Name)
+\item 
+void \hyperlink{class_element_ab1df8a254bbdec0d3426d5c34a9c1963}{display\+Attributes} ()
+\item 
+void \hyperlink{class_element_a57f4778507a7422271206f948ff935db}{add\+Child} (\hyperlink{class_element}{Element} $\ast$new\+Child)
+\item 
+void \hyperlink{class_element_aa082a15e61c5ba173a2645bcc40effb4}{set\+Parent} (\hyperlink{class_element}{Element} $\ast$Parent)
+\item 
+\hyperlink{class_element}{Element} $\ast$ \hyperlink{class_element_a3267b237ad82b8708aa95515fb111a56}{get\+Parent} ()
+\item 
+int \hyperlink{class_element_aefe3c479a2b83a227c1b13ec60a9009e}{get\+No\+Of\+Children} ()
+\item 
+int \hyperlink{class_element_afae9a641dc3ebc13af5fcc537d8ea8c1}{get\+Level} ()
+\item 
+void \hyperlink{class_element_a24c9693dc13d4e47c60923f1e492304e}{set\+Level} (int new\+Level)
+\item 
+bool \hyperlink{class_element_adeda43b6b12c7ce7c18f5a6ac6ed5ffd}{has\+Attributes} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_attribute}{Attribute} $\ast$ $>$ \hyperlink{class_element_abb3376aa0c29ab083625396330a08bd9}{vec\+Attribute}
+\item 
+vector$<$ \hyperlink{class_element}{Element} $\ast$ $>$ \hyperlink{class_element_aaa1b0172c42894dfa91643fdf2c4babe}{vec\+Children}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 27 of file Element.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_element_ab0d0e20be9a36ae676202db753faeec9}{\index{Element@{Element}!Element@{Element}}
+\index{Element@{Element}!Element@{Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}Element\+::\+Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_ab0d0e20be9a36ae676202db753faeec9}
+Default constructor. Sets str\+Tag\+Name and str\+Content to be an empty string, sets line\+Number to 0. 
+
+Definition at line 22 of file Element.\+cpp.
+
+\hypertarget{class_element_a6b1a7cd51ec49606308cd7574a3f1543}{\index{Element@{Element}!Element@{Element}}
+\index{Element@{Element}!Element@{Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}Element\+::\+Element (
+\begin{DoxyParamCaption}
+\item[{const {\bf Element} \&}]{orig}
+\end{DoxyParamCaption}
+)}}\label{class_element_a6b1a7cd51ec49606308cd7574a3f1543}
+Copy constructor Creates a new \hyperlink{class_element}{Element} object setting each element variable to match the object it is copied from. 
+\begin{DoxyParams}{Parameters}
+{\em orig} & -\/ Original element object which is copied. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 34 of file Element.\+cpp.
+
+\hypertarget{class_element_a13d54ba9c08b6bec651402f1c2bb002c}{\index{Element@{Element}!````~Element@{$\sim$\+Element}}
+\index{````~Element@{$\sim$\+Element}!Element@{Element}}
+\subsubsection[{$\sim$\+Element}]{\setlength{\rightskip}{0pt plus 5cm}Element\+::$\sim$\+Element (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_element_a13d54ba9c08b6bec651402f1c2bb002c}
+Standard destructor. 
+
+Definition at line 69 of file Element.\+cpp.
+
+\hypertarget{class_element_a78ecd3c39476bafdb481366208503e1d}{\index{Element@{Element}!Element@{Element}}
+\index{Element@{Element}!Element@{Element}}
+\subsubsection[{Element}]{\setlength{\rightskip}{0pt plus 5cm}Element\+::\+Element (
+\begin{DoxyParamCaption}
+\item[{string}]{tag\+Name, }
+\item[{int}]{n\+Line\+No, }
+\item[{string}]{content, }
+\item[{string}]{current\+Line}
+\end{DoxyParamCaption}
+)}}\label{class_element_a78ecd3c39476bafdb481366208503e1d}
+Custom constructor. Assigns the passed parameters to the newly created element's member variables. Used in the program whenever a new element is created. Also calls the 'find\+Attributes' function which will scan the line on which the element was found for attributes and populate a vector of found attributes. Also sets the to element's level to 0 as the 'set\+Level' function is called after the new element is created. This should be re-\/factored in future versions. 
+\begin{DoxyParams}{Parameters}
+{\em tag\+Name} & -\/ A string which is used to store the element's tag name. \\
+\hline
+{\em n\+Line\+No} & -\/ The line number of the X\+M\+L file on which the element was found. \\
+\hline
+{\em content} & -\/ A string which is used to store the element's content. \\
+\hline
+{\em current\+Line} & -\/ The entire line of an X\+M\+L file on which the element was found, used when 'find\+Attributes' is called. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file Element.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_element_a57f4778507a7422271206f948ff935db}{\index{Element@{Element}!add\+Child@{add\+Child}}
+\index{add\+Child@{add\+Child}!Element@{Element}}
+\subsubsection[{add\+Child}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::add\+Child (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{new\+Child}
+\end{DoxyParamCaption}
+)}}\label{class_element_a57f4778507a7422271206f948ff935db}
+Function to store pointers to children of the element. Pointers are pushed on to the element's 'vec\+Children' vector and the number of children is incremented. This is called in the program just after a new element is created. In future versions this should be called in the element's constructor. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Child} & -\/ A pointer to an element that is the child of the element object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 204 of file Element.\+cpp.
+
+\hypertarget{class_element_ab1df8a254bbdec0d3426d5c34a9c1963}{\index{Element@{Element}!display\+Attributes@{display\+Attributes}}
+\index{display\+Attributes@{display\+Attributes}!Element@{Element}}
+\subsubsection[{display\+Attributes}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::display\+Attributes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_ab1df8a254bbdec0d3426d5c34a9c1963}
+Function used to output the element's attribute names and values. This is used during the tree building process and after the tree has been built. During tree building, this function is called before the element's level has been set. The function uses this default level to determine if the tree is currently being built. This behavior is not reliable and should be updated in future versions. 
+
+Definition at line 122 of file Element.\+cpp.
+
+\hypertarget{class_element_afae9a641dc3ebc13af5fcc537d8ea8c1}{\index{Element@{Element}!get\+Level@{get\+Level}}
+\index{get\+Level@{get\+Level}!Element@{Element}}
+\subsubsection[{get\+Level}]{\setlength{\rightskip}{0pt plus 5cm}int Element\+::get\+Level (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_afae9a641dc3ebc13af5fcc537d8ea8c1}
+A function that returns the level on which an element was found. This is called when new element objects are being created to retrieve the level of their parent. This is also called as the element tree is being displayed. \begin{DoxyReturn}{Returns}
+level -\/ The level within the element tree in which the element object is located. 
+\end{DoxyReturn}
+
+
+Definition at line 243 of file Element.\+cpp.
+
+\hypertarget{class_element_a0df9ef693c7789f8d96082d443fa5599}{\index{Element@{Element}!get\+Line\+No@{get\+Line\+No}}
+\index{get\+Line\+No@{get\+Line\+No}!Element@{Element}}
+\subsubsection[{get\+Line\+No}]{\setlength{\rightskip}{0pt plus 5cm}int Element\+::get\+Line\+No (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_element_a0df9ef693c7789f8d96082d443fa5599}
+Standard getter for the line number that a element is found on in an X\+M\+L file. Used throughout the program for output and organizes the the building of the tree. \begin{DoxyReturn}{Returns}
+line\+Number -\/ The line in an X\+M\+L file on which an element was found. 
+\end{DoxyReturn}
+
+
+Definition at line 86 of file Element.\+cpp.
+
+\hypertarget{class_element_aefe3c479a2b83a227c1b13ec60a9009e}{\index{Element@{Element}!get\+No\+Of\+Children@{get\+No\+Of\+Children}}
+\index{get\+No\+Of\+Children@{get\+No\+Of\+Children}!Element@{Element}}
+\subsubsection[{get\+No\+Of\+Children}]{\setlength{\rightskip}{0pt plus 5cm}int Element\+::get\+No\+Of\+Children (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_aefe3c479a2b83a227c1b13ec60a9009e}
+Returns the number of children that an element object contains. This is called as the element tree is being displayed. \begin{DoxyReturn}{Returns}
+no\+Of\+Children -\/ An integer which is the number of children that the element object has. 
+\end{DoxyReturn}
+
+
+Definition at line 233 of file Element.\+cpp.
+
+\hypertarget{class_element_a3267b237ad82b8708aa95515fb111a56}{\index{Element@{Element}!get\+Parent@{get\+Parent}}
+\index{get\+Parent@{get\+Parent}!Element@{Element}}
+\subsubsection[{get\+Parent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Element} $\ast$ Element\+::get\+Parent (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_a3267b237ad82b8708aa95515fb111a56}
+Function that returns a pointer to the current element's parent. This is used for creating the element tree as well as setting the element object's level. \begin{DoxyReturn}{Returns}
+parent -\/ A pointer to the element object's parent. 
+\end{DoxyReturn}
+
+
+Definition at line 224 of file Element.\+cpp.
+
+\hypertarget{class_element_ad5dd0f5ac62f575e2faad832b98e6e03}{\index{Element@{Element}!get\+Str\+Content@{get\+Str\+Content}}
+\index{get\+Str\+Content@{get\+Str\+Content}!Element@{Element}}
+\subsubsection[{get\+Str\+Content}]{\setlength{\rightskip}{0pt plus 5cm}string Element\+::get\+Str\+Content (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_element_ad5dd0f5ac62f575e2faad832b98e6e03}
+Standard getter for the content of an element. If the element has no content this will simply return \char`\"{}\+Empty\char`\"{}. Used when displaying the tree structure. \begin{DoxyReturn}{Returns}
+str\+Content -\/ The content of the current element. Defaults to \char`\"{}\+Empty\char`\"{}. 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Element.\+cpp.
+
+\hypertarget{class_element_a68be77d255e5e4a27620ac9267e431b0}{\index{Element@{Element}!get\+Tag\+Name@{get\+Tag\+Name}}
+\index{get\+Tag\+Name@{get\+Tag\+Name}!Element@{Element}}
+\subsubsection[{get\+Tag\+Name}]{\setlength{\rightskip}{0pt plus 5cm}string Element\+::get\+Tag\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_element_a68be77d255e5e4a27620ac9267e431b0}
+Standard getter for the element's tag name, used throughout the program for output and for building the tree. \begin{DoxyReturn}{Returns}
+str\+Tag\+Name -\/ The string stored as the elements tag name. 
+\end{DoxyReturn}
+
+
+Definition at line 77 of file Element.\+cpp.
+
+\hypertarget{class_element_adeda43b6b12c7ce7c18f5a6ac6ed5ffd}{\index{Element@{Element}!has\+Attributes@{has\+Attributes}}
+\index{has\+Attributes@{has\+Attributes}!Element@{Element}}
+\subsubsection[{has\+Attributes}]{\setlength{\rightskip}{0pt plus 5cm}bool Element\+::has\+Attributes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_element_adeda43b6b12c7ce7c18f5a6ac6ed5ffd}
+A simple boolean function that determines if the element object contains attributes or not. This is done by checking if the 'vec\+Attribute' vector is empty. This is called as the tree is being displayed. \begin{DoxyReturn}{Returns}
+-\/ Boolean value referencing the presence or lack of attributes for the element. 
+\end{DoxyReturn}
+
+
+Definition at line 263 of file Element.\+cpp.
+
+\hypertarget{class_element_a24c9693dc13d4e47c60923f1e492304e}{\index{Element@{Element}!set\+Level@{set\+Level}}
+\index{set\+Level@{set\+Level}!Element@{Element}}
+\subsubsection[{set\+Level}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::set\+Level (
+\begin{DoxyParamCaption}
+\item[{int}]{new\+Level}
+\end{DoxyParamCaption}
+)}}\label{class_element_a24c9693dc13d4e47c60923f1e492304e}
+Sets an element objects level as the element tree is being created. In future versions this should be called within the element constructor. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Level} & -\/ The level in which an element is found within the element tree. This parameter is always passed as the element object's parent's level + 1. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 253 of file Element.\+cpp.
+
+\hypertarget{class_element_aa082a15e61c5ba173a2645bcc40effb4}{\index{Element@{Element}!set\+Parent@{set\+Parent}}
+\index{set\+Parent@{set\+Parent}!Element@{Element}}
+\subsubsection[{set\+Parent}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::set\+Parent (
+\begin{DoxyParamCaption}
+\item[{{\bf Element} $\ast$}]{Parent}
+\end{DoxyParamCaption}
+)}}\label{class_element_aa082a15e61c5ba173a2645bcc40effb4}
+Function to store a pointer to the current element's parent. This is called in the program just after a new element is created. In future versions this should be called in the element's constructor. 
+\begin{DoxyParams}{Parameters}
+{\em Parent} & -\/ A pointer to an element that is the parent of the element object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 215 of file Element.\+cpp.
+
+\hypertarget{class_element_a78f1d57cb2d35d4afcfcce667c027e5c}{\index{Element@{Element}!set\+Str\+Content@{set\+Str\+Content}}
+\index{set\+Str\+Content@{set\+Str\+Content}!Element@{Element}}
+\subsubsection[{set\+Str\+Content}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::set\+Str\+Content (
+\begin{DoxyParamCaption}
+\item[{string}]{content}
+\end{DoxyParamCaption}
+)}}\label{class_element_a78f1d57cb2d35d4afcfcce667c027e5c}
+Standard setter for the element's content. Called when a new element is created. 
+\begin{DoxyParams}{Parameters}
+{\em content} & -\/ A string which is to be stored as the element's content. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 111 of file Element.\+cpp.
+
+\hypertarget{class_element_ab4a3675e61ce853251171a58b345fa8c}{\index{Element@{Element}!set\+Tag\+Name@{set\+Tag\+Name}}
+\index{set\+Tag\+Name@{set\+Tag\+Name}!Element@{Element}}
+\subsubsection[{set\+Tag\+Name}]{\setlength{\rightskip}{0pt plus 5cm}void Element\+::set\+Tag\+Name (
+\begin{DoxyParamCaption}
+\item[{string}]{tag\+Name}
+\end{DoxyParamCaption}
+)}}\label{class_element_ab4a3675e61ce853251171a58b345fa8c}
+Standard setter for the element's tag name. Called when a new element is created. 
+\begin{DoxyParams}{Parameters}
+{\em tag\+Name} & -\/ A string which is to be stored as the element's tag name. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 103 of file Element.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_element_abb3376aa0c29ab083625396330a08bd9}{\index{Element@{Element}!vec\+Attribute@{vec\+Attribute}}
+\index{vec\+Attribute@{vec\+Attribute}!Element@{Element}}
+\subsubsection[{vec\+Attribute}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Attribute}$\ast$$>$ Element\+::vec\+Attribute}}\label{class_element_abb3376aa0c29ab083625396330a08bd9}
+A vector which is used to store pointers to attribute objects that belong to the current element object. 
+
+Definition at line 163 of file Element.\+h.
+
+\hypertarget{class_element_aaa1b0172c42894dfa91643fdf2c4babe}{\index{Element@{Element}!vec\+Children@{vec\+Children}}
+\index{vec\+Children@{vec\+Children}!Element@{Element}}
+\subsubsection[{vec\+Children}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Element}$\ast$$>$ Element\+::vec\+Children}}\label{class_element_aaa1b0172c42894dfa91643fdf2c4babe}
+A vector which is used to store pointers to other element objects that are children of the current element object. 
+
+Definition at line 167 of file Element.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_element_8h}{Element.\+h}\item 
+\hyperlink{_element_8cpp}{Element.\+cpp}\end{DoxyCompactItemize}
